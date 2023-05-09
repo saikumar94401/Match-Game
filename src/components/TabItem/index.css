@@ -1,0 +1,20 @@
+.active-tab-item-container {
+  margin-right: 30px;
+}
+
+.each-tab-display-text {
+  color: white;
+  font-size: 25px;
+}
+
+.active-tab {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+  padding-bottom: 5px;
+}
+
+.each-tab-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

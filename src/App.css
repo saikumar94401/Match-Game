@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.game-image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+
+  background-size: cover;
+  width: 100%;
+}
+
+.image-guess-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .image-guess-container {
+    width: 90%;
+  }
+}
+
+.active-image {
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.active-tab-list-container {
+  list-style: none;
+
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.thumbnail-list-container {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scoreboard-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+
+  background-repeat: no-repeat;
+  width: 50%;
+
+  background-size: cover;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trophy-image {
+  margin-top: 200px;
+  height: 300px;
+}
+
+.scoreboard-score-text {
+  color: white;
+  font-size: 30px;
+}
+
+.scoreboard-value {
+  color: white;
+}
+
+.scoreboard-reset-image {
+}
+
+.scoreboard-play-again-container {
+  display: flex;
+  background-color: #cf60c8;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.scoreboard-reset-image {
+}
